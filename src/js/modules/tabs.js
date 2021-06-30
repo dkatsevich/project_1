@@ -22,6 +22,7 @@ const tabs = () => {
 
     bindTabs('.glazing_block', '.glazing_content', 'active');
     bindTabs('.decoration_item .no_click', '.decoration_content > .row > div', 'after_click');
+    bindTabs('.balcon_icons_img ', '.big_img img', 'do_image_more');
 }
 
 
